@@ -1,0 +1,179 @@
+ #tb
+ {
+   border-collapse: collapse;
+   border: 2px solid black;
+   margin:  2% auto;
+   width: 50%;
+   
+ }
+
+ #tb #the, #tb #tbo
+ {
+   border: 2px solid black;
+   text-align: center;
+ }
+
+#tb #tbo td
+{
+    border: 2px solid black;
+}
+
+ #tx input
+{
+    margin: 10px;
+}
+
+ #ypd
+{
+    
+    margin-left: 23px;
+    float: left;
+}
+
+#ypmd
+{
+    margin-right: 26px;
+    float: right;
+}
+
+  input[type="checkbox"] {
+      width: 30px;
+      height: 30px;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border: 2px solid #555;
+      border-radius: 5px;
+      cursor: pointer;
+      position: relative;
+ }
+
+   #ypd:checked::after {
+      content: "✔";
+      color: green;
+      font-size: 24px;
+      position: absolute;
+      top: 0;
+      left: 4px;
+    }
+
+ #ypmd:checked::after
+ {
+  content: "X";
+  color: red;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 4px;
+ }
+
+.gizli
+{
+    display: none; 
+}
+
+#alarm
+{
+ align-items: center;
+ background-color: black;
+ color: rgb(255, 240, 240);
+  margin:  -19% auto;
+  border: 6px solid  black;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 1000;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  
+}
+
+#alarm-yazi
+{
+   font-size: large;
+}
+
+#alarm-but
+{
+    margin-left:220px;
+    border: 4px solid rgb(52, 50, 50);
+    border-radius: 5px;
+    background-color:greenyellow;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+#alarm-but:hover
+{
+    margin-left:220px;
+    border: 4px solid greenyellow;
+    border-radius: 5px;
+    background-color:rgb(0, 0, 0);
+    color: greenyellow;
+    font-size: 24px;
+}
+
+
+#alarmkap
+{
+ align-items: center;
+ background-color: black;
+ color: rgb(255, 0, 0);
+  margin:  -19% auto;
+  border: 6px solid  black;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 1000;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  
+}
+
+#alarmkap-yazi
+{
+   font-size: large;
+}
+
+#alarmkap-but
+{
+    margin-left:220px;
+    border: 4px solid rgb(39, 39, 39);
+    border-radius: 5px;
+    background-color:rgb(255, 69, 40);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+#alarmkap-but:hover
+{
+    margin-left:220px;
+    border: 4px solid rgb(255, 69, 40);
+    border-radius: 5px;
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 69, 40);
+    font-size: 24px;
+}
+
+#yeniliste
+{
+    margin-left:77%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(117, 255, 4);
+    border-radius:3p;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+#yeniliste:hover  
+{
+  border:  2px solid lime;
+  color: black;
+  background-color: lime;
+
+}
+
